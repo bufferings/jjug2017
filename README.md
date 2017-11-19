@@ -170,7 +170,7 @@ INSERT INTO ProductPage VALUES
 
 Eclipseでプロジェクトを取り込んだ時に、demo3-processorとdemo3-queryでDomaのエラーが出る場合は次の設定を変更してください。
 
-### producerアプリが終了しない場合
+### Producerアプリが終了しない場合
 
 僕の環境ではProducerアプリが終了できないので強制終了しました。
 
