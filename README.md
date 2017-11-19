@@ -166,9 +166,33 @@ INSERT INTO ProductPage VALUES
 
 ## その他
 
+### Eclipseでdemo3のアプリケーションが起動できない場合
+
+自動で設定されていない場合はdemo3の各プロジェクトに対して、以下の手順でDomaのJARをFactory Pathに追加してください。
+
+プロジェクトの設定からAnnotation Processingを選択し、Enable project specific settingsをチェック
+
+![AnnotationProcessing](./image/AnnotationProcessing.png)
+
+Factory PathもEnable project specific settingsをチェックし、Factory PathにDomaのJARを追加する。Add External JARsから.m2ディレクトリ内のDomaのJARを指定。
+
+![FactoryPath](./image/FactoryPath.png)
+
+これを、demo3の3つのプロジェクト全てに設定してください。
+
 ### EclipseでDomaのエラーが出る場合
 
-Eclipseでプロジェクトを取り込んだ時に、demo3-processorとdemo3-queryでDomaのエラーが出る場合は次の設定を変更してください。
+Eclipseでプロジェクトを取り込んだ時に、demo3-processorとdemo3-queryで次のようなDomaのエラーが出る場合
+
+> [DOMA4019] ファイル[META-INF/com/example/demo/ProductPageDao/findAll.sql]がクラスパスから見つかりませんでした。ファイルの絶対パスは"/home/bufferings/jjug2017/jjug2017/demo3-query/target/classes/META-INF/com/example/demo/ProductPageDao/findAll.sql"です。
+
+プロジェクトの設定からJava Build Pathを選択し、src/main/resourcesの `Excluded: **` をRemoveする。
+
+![BuildPath](./image/BuildPath.png)
+
+`Excluded: **` を選択した状態で右側の `Remove` ボタンをクリック。
+
+これを、demo3のprocessorとqueryのプロジェクトに設定してください。(もしcommandプロジェクトにSQLファイルを追加したい場合は、commandプロジェクトにも設定してください)
 
 ### Producerアプリが終了しない場合
 
