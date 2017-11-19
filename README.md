@@ -71,7 +71,7 @@ CLOVERのコードをほぼそのまま使用させていただきました。�
 
 ## demo2: Spring BootとSpring Kafkaを使用してProducer/Consumerを使ってみる
 
-どちらもWebアプリにしています。
+どちらもWebアプリにしています。Spring Kafkaが対応しているバージョンがKafka 0.11なのでそれをpom.xmlの中で1.0.0に変更して使用しています。
 
 ### demo2-boot-producer
 
