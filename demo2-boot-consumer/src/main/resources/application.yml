@@ -1,0 +1,6 @@
+server.port: 8201
+
+spring.kafka:
+  consumer:
+    group-id: demo2-consumer
+    auto-offset-reset: earliest

@@ -1,0 +1,16 @@
+server.port: 8301
+
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost:3306/jjug2017?useSSL=false
+    username: root
+    password: password
+    driverClassName: com.mysql.jdbc.Driver
+
+doma:
+  dialect: MYSQL
+
+spring.kafka:
+  consumer:
+    group-id: demo3-consumer
+    auto-offset-reset: earliest
