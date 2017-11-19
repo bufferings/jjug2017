@@ -4,6 +4,8 @@
 
 (スライドは後日アップロード予定です。アップロードしたらリンクを貼っておきます。)
 
+## リポジトリの内容
+
 * demo1: KafkaのJavaクライアントを使用してProducer/Consumerを使ってみる
 * demo2: Spring BootとSpring Kafkaを使用してProducer/Consumerを使ってみる
 * demo3: Command/Processor/QueryでCQRS的に動かしてみる
