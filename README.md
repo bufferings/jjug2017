@@ -148,7 +148,7 @@ INSERT INTO ProductPage VALUES
 
 ### demo3-processor
 
-コメントが追加されたイベントを受け取って、ProductPageを更新します。クエリ用テーブルのまぐろに対するコメント数と、最新のコメントを更新します。
+コメントが追加されたというイベントを受け取って、ProductPageを更新します。クエリ用テーブルのまぐろに対するコメント数と、最新のコメントを更新します。
 
 ### demo3-query
 
