@@ -160,15 +160,15 @@ INSERT INTO ProductPage VALUES
 
 ## その他
 
-### Domaのエラーが出る
+### Domaのエラーが出る場合
 
 Eclipseでプロジェクトを取り込んだ時にDomaのエラーが出る場合は次の手順で設定を変更してください
 
-### producerアプリが終了しない
+### producerアプリが終了しない場合
 
 僕の環境ではProducerアプリが終了できないので強制終了しました。
 
-### Topicを削除する
+### Topicを削除したい場合
 
 トピックの削除は次の通りです
 
