@@ -2,7 +2,11 @@
 
 [JJUG CCC 2017 Fall](http://www.java-users.jp/ccc2017fall/) 「Spring BootとKafkaでCQRSなアプリを動かしてみる」のデモプロジェクトです。
 
-(スライドは後日アップロード予定です。アップロードしたらリンクを貼っておきます。)
+## セッションの内容
+
+ブログに記事を書いてそこにスライドのリンクも貼っておきました！
+
+http://bufferings.hatenablog.com/entry/2017/11/20/221215
 
 ## リポジトリの内容
 
